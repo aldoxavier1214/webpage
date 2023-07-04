@@ -1,0 +1,219 @@
+header{
+    
+    float: right;  
+    top: 0%;
+    width: 100%;
+    box-sizing: border-box;
+    background-color:whitesmoke;
+    display:flex;
+    align-items: center;
+    background-size: cover;
+    background: url(plain2.jpg);
+    
+
+  
+
+}
+.r{
+    float: right;
+    margin-right: 2px;
+    
+    
+}
+
+    .navigation{
+        position: static;
+        float:right;
+        margin-left: 2px;
+        left: 10%; 
+        width: 100%;
+        padding: 10px 35px;
+       margin-inline-start: 700px;
+        display:flex;
+        justify-content:space-between;
+        
+       
+        
+    
+    }
+   
+    .back{
+       
+         text-align:center;
+        text-align-last: center;
+        font-weight: 500;
+       
+          
+        
+       
+    }
+   
+     .heading{
+        
+        color:#800000; 
+    } 
+    .btnLogin-popup{
+       
+        background-color:violet;
+        font-style:italic;
+        font-display: white;
+    }
+
+        
+    
+     
+     body{
+        background: url(plain2.jpg);
+        
+     }
+     .content{
+        margin: 20px;
+    font-weight: 200;
+    font-size: medium;
+    color: black;
+    margin-left: 20px;
+    font-family:cursive;
+    
+      } 
+     .boxing{
+        font-weight: 500;
+        color: #100;
+     }
+     .image{
+        border-color: black;
+        padding: 20px;
+     }
+     
+    
+      
+      body {
+        margin: 0;
+      
+        box-sizing: border-box;
+      }
+      
+      .header {
+        text-align: center;
+        padding: 32px;
+      }
+      
+      .row {
+        display: -ms-flexbox; 
+        display: flex;
+        -ms-flex-wrap: wrap; 
+        flex-wrap:unset;
+        padding: 12 16px;
+      }
+      
+      
+      .column {
+        -ms-flex: 33.33%; 
+        flex: 25%;
+        max-width: 25%;
+        padding: 0 4px;
+       
+      }
+      
+      .column img {
+        margin-top: 18px;
+        vertical-align: middle;
+        width: 100%;
+      }
+      
+      
+      @media screen and (max-width: 800px) {
+        .column {
+          -ms-flex: 50%;
+          flex: 40%;
+          max-width: 70%;
+        }
+      }
+      
+      
+      @media screen and (max-width: 600px) {
+        .column {
+          -ms-flex: 0%;
+          flex: 10%;
+          max-width: 80%;
+        }
+        img:hover{
+          width:500px;
+          height: 500px;
+      }
+      }
+      .artist{
+        
+ 
+  align-items: ;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+        font-size: 4ch; 
+        padding-left: 10px;
+        
+        float: left; 
+  
+      }
+
+
+      .text{
+       
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-size: 4ch; 
+       
+        float: left;     
+         
+      }
+      .text2{
+        
+        letter-spacing: 3px;
+        font-size: 1ch;
+        display: block;
+        
+      }
+      .button{
+        background-color: bisque;
+        
+        border-style:dashed;
+        padding-top: 0ch;
+      }
+      .art2{
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-size: 4ch;
+        color: darkred; 
+        padding-left: 20px;
+        padding-left: 10px;
+        flex-direction: row-reverse;
+      }
+      .text3{
+        letter-spacing: 3px;
+        font-size: 3ch;
+        padding-left: 10px
+      
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      }
+      .art3{
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-size: 4ch;
+        color: darkred; 
+        padding-left: 20px;
+        padding-left: 10px;
+        flex-direction: row-reverse;
+      }
+    
+        
+      
+      .text4{
+        font-family: cursive;
+        letter-spacing: 3px;
+        font-size: 2ch;
+        padding-left: 10px
+       
+        
+      }
+      .LOGO{
+        padding: 10px;
+
+      }
+      .location{
+        padding: 20px;
+        list-style-type: none;
+      }

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<head>  
+    <title>TO JOIN</title>
+    <script defer src="pro.js"></script>
+    <style>
+        body {
+            background: url("https://wallpaperaccess.com/full/1583366.jpg");
+  font-family: Arial, Helvetica, sans-serif;
+}
+#form {
+  width: 700px;
+  margin: 20vh auto 0 auto;
+  padding: 40px;
+  background-color: whitesmoke; 
+  border-radius: 3px;
+  font-size: 12px;
+}
+#form h1{
+  color: #0f200f;
+  text-align: center;
+  width: 600%;
+}
+#form button {
+  padding: 10px;
+  margin-top: 10px;
+  width: 100%;
+  color: white;
+  background-color: rgb(41, 57,194);
+  border: none;
+  border-radius: 4px;
+}
+.input-control{
+  display: flex;
+  flex-direction: column;
+}
+.input-control input {
+  border: 2px solid #4CAF50;
+  display: block;
+  font-size: 12px;
+  padding: 10px;
+  width: 100%;
+}
+.input-control.input:focus {
+  outline: 0;
+}
+.input-control.success input {
+  border-color: aqua;
+}
+.input-control.error input {
+  border-color: crimson;
+}
+.input-control .error {
+  color: crimson;
+  font-size: 9px;
+  height: 11px;
+}
+     </style>
+
+</head>
+<body>
+    <header>
+
+    </header>
+    <div class="registration">
+        <form id="form" action="/">
+            <h2>REGISTER TO JOIN AND POST YOUR CREATION</h2>
+            <div class="input-control">
+                <label for="firstname">username</label>
+                <input id="firstname" name="firstname" type="text">
+                <div class="error"></div>
+            </div>
+            <!-- <div class="input-control">
+                <label for="lastname">Lasttname</label>
+                <input id="lastname" name="lastname" type="text">
+                <div class="error"></div>
+            </div> -->
+            <div class="input-control">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="text">
+                <div class="error"></div>
+            </div>
+
+            <div class="input-control">
+                <label for="password">Password</label>
+                <input id="password" name="password" type="password">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="password">Password again</label>
+                <input id="password2" name="password2" type="password">
+                <div class="error"></div>
+            </div>
+            <button type="submit">REGISTER</button>
+
+
+
+        </form>
+    </div>
+
+</body>
+</html>
